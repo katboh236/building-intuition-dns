@@ -52,3 +52,10 @@ Connected into DC-1 and Client-1 as my admin account, created a DNS A-record on 
 Went back to DC-1 and changed mainframe's record address to 8.8.8.8, went back to Client-1, pinged "mainframe" again - still pinged the old address. In order to observe the new address, I flushed the DNS cache (ipconfig /flushdns), observed that cache was empty, pinged "mainframe" again and observed the address of the new record is showing up.
 </p>
 <br />
+<p>
+<img src="https://imgur.com/LkC6XLU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Created a CNAME record on DC-1 that points the host "search" to "www.google.com", went back to Client-1 and attempted to ping "search" of the CNAME record. Observed the results of the CNAME record on Client-1 (nslookup "search") which showed that we can map names to other names.
+</p>
+<br />
