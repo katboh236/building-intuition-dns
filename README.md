@@ -17,8 +17,14 @@ In this lab we will be experimenting with DNS. This lab will help us have a bett
 
 <h2>List of Prerequisites</h2>
 
-- Active Directory Virtual Machine
-- Client Machine joined to your domain
+- Active Directory running i Azure on a Virtual Machine (DC-1 - Domain Controller)
+- Client Machine running in Azure on a Virtual Machine (Client-1) and joined to the domain
+
+<h2>High-Level Deployment and Configuration Steps</h2>
+
+- Inspect DNS A-Records on the server (hostname to IP address mappings)
+- Local DNS Cache Exercise
+- CHAME Record Exercise
 
 <h2>Lab Steps</h2>
 <p>
