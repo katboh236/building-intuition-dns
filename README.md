@@ -26,10 +26,23 @@ In this lab we will be experimenting with DNS. This lab will help us have a bett
 - Local DNS Cache Exercise
 - CHAME Record Exercise
 
-<h2>Lab Steps</h2>
+<h2>Deployment and Configuration Steps</h2>
 <p>
 </p>
 <p>
+<img src="https://imgur.com/2FFxTSw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/zASiK84.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Connected into DC-1 and Client-1 as my admin account, created a DNS A-record on DC-1 for "mainframe" and had it point to DC-1's Private IP address.
+</p>
+<br />
+<p>
+<img src="https://imgur.com/Yrc9T8S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Ken from Accounting Department created a new ticket as "Personal Computer Issues" as entire Accounting Department Adobe Reader is not working and nobody has been able to use it since the upgrade last night.  
 </p>
 <br />
