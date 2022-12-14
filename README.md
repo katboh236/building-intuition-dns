@@ -36,13 +36,19 @@ In this lab we will be experimenting with DNS. This lab will help us have a bett
 <img src="https://imgur.com/zASiK84.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Connected into DC-1 and Client-1 as my admin account, created a DNS A-record on DC-1 for "mainframe" and had it point to DC-1's Private IP address.
+Connected into DC-1 and Client-1 as my admin account, created a DNS A-record on DC-1 for "mainframe" and had it point to DC-1's Private IP address, went back to Client-1, pinged it and observed that it works.
 </p>
 <br />
 <p>
-<img src="https://imgur.com/Yrc9T8S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Z8a5rN8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Ken from Accounting Department created a new ticket as "Personal Computer Issues" as entire Accounting Department Adobe Reader is not working and nobody has been able to use it since the upgrade last night.  
+<img src="https://imgur.com/V4KWSOc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/GX4PPhj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Went back to DC-1 and changed mainframe's record address to 8.8.8.8, went back to Client-1, pinged "mainframe" again - still pinged the old address. In order to observe the new address, I flushed the DNS cache (ipconfig /flushdns), observed that cache was empty, pinged "mainframe" again and observed the address of the new record is showing up.
 </p>
 <br />
