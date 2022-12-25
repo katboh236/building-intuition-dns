@@ -3,7 +3,7 @@
 </p>
 
 <h1>Building Intuition for DNS</h1>
-In this tutorial I will be experimenting with DNS to have a better understanding of it.<br />
+In this tutorial I will inspect DNS A-Records on the server (hostname to IP mapping), create some on my own A-Records on the server and observe them from the client, delete records from server and inspect/clear the client DNS cache, inspect "CNAME" records (mapping one name to another), inspect Root Hints.<br />
 
 <h2>Environments and Technologies Used</h2>
 
